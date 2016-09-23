@@ -26,9 +26,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by fan.liao on 2016/9/6.
- */
 public class MyReactPackage implements ReactPackage {
 
     @Override
