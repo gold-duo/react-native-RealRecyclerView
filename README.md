@@ -1,7 +1,6 @@
 **Real Android recycles RecyclerView/ListView**
 
-**Function**
-Thanks for [@talkol](https://github.com/talkol) [articles](http://blog.wix.engineering/2016/06/30/recycling-rows-for-high-performance-react-native-list-views/). I implement the android RecyclerView(react-native-RealRecyclerView)
+*Thanks for [@talkol](https://github.com/talkol) [articles](http://blog.wix.engineering/2016/06/30/recycling-rows-for-high-performance-react-native-list-views/). I implement the android RecyclerView(react-native-RealRecyclerView)*
 
 **How to use**
 
