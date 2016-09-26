@@ -1,7 +1,7 @@
 **Real Android recycles RecyclerView/ListView**
 
 **Function**
-Real Android recycles RecyclerView/ListView
+Thanks for [@talkol](https://github.com/talkol) [articles](http://blog.wix.engineering/2016/06/30/recycling-rows-for-high-performance-react-native-list-views/). I implement the android RecyclerView(react-native-RealRecyclerView)
 
 **How to use**
 
@@ -15,6 +15,10 @@ Real Android recycles RecyclerView/ListView
 
 1. 从其他项目拷贝react-native 0.31.0版本的node_modules文件夹既可使用。
 2. 见我的博文《[react native Android 真正回收复用 RecyclerView/ListView](https://my.oschina.net/droidwolf/blog/750479)》
+
+*demo*
+
+![](https://github.com/droidwolf/react-native-RealRecyclerView/blob/master/GIF.gif)
 
 --------
 **Authors**
