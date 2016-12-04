@@ -6,7 +6,7 @@
 
 **How to use**
 
-1. copy from another project react-native 0.31.0 version of the node_modules folders can be used.
+1. copy from another project react-native 0.39.0 version of the node_modules folders can be used.
 
 
 --------
@@ -16,7 +16,7 @@
 
 **使用方法**
 
-1. 从其他项目拷贝react-native 0.31.0版本的node_modules文件夹既可使用。
+1. 从其他项目拷贝react-native 0.39.0版本的node_modules文件夹既可使用。
 2. 见我的博文《[react native Android 真正回收复用 RecyclerView/ListView](https://my.oschina.net/droidwolf/blog/750479)》
 
 *demo*
