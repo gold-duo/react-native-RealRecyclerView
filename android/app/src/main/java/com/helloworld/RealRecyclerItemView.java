@@ -55,6 +55,7 @@ public class RealRecyclerItemView extends ReactViewGroup {
 
     @Override
     public void requestLayout() {
+        super.requestLayout();
         forceLayout();
     }
 
@@ -73,7 +74,7 @@ public class RealRecyclerItemView extends ReactViewGroup {
         private final int mRowId;
 
         private MyEvent(int viewTag, int mRowId) {
-            super(viewTag, System.nanoTime());
+            super(viewTag);
             this.mRowId = mRowId;
         }
 

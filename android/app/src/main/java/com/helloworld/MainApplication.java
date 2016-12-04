@@ -19,11 +19,11 @@ package com.helloworld;
 import android.app.Application;
 
 import com.facebook.infer.annotation.Assertions;
-import com.facebook.react.LifecycleState;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
+import com.facebook.react.common.LifecycleState;
 import com.facebook.react.shell.MainReactPackage;
 
 import java.util.Arrays;
