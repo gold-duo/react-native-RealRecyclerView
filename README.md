@@ -10,7 +10,7 @@
 
   copy from another project react-native 0.39.0 version of the node_modules folders can be used.
 
-2.use RealRecyclerView component
+2.  use RealRecyclerView component
 
   copy My*.java &RealRecycler*.java file to your project;
 
@@ -23,10 +23,11 @@
 
 **使用方法**
 
-1.怎样跑这个实例
+1.  怎样跑这个实例
+
 从其他项目拷贝react-native 0.39.0版本的node_modules文件夹既可使用。
 
-2. 怎样使用RealRecyclerView组件
+2.  怎样使用RealRecyclerView组件
 
   拷贝 My*.java 和RealRecycler*.java 文件到您的项目;
   
