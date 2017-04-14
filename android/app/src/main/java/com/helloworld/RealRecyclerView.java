@@ -98,12 +98,12 @@ public class RealRecyclerView extends RecyclerView {
 				View v = mRecycleViews.get(i);
 				if (v.getParent()==null) {
 					view = v;
-					mUsedPos = i;
+					mUPos = i;
 					break;
 				}
 			}
 		} else {
-			++mUsedPos;
+			++mUPos;
 		}
             return new ViewHolder(view) { };
         }
