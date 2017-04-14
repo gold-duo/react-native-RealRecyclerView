@@ -93,18 +93,18 @@ public class RealRecyclerView extends RecyclerView {
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             final int p = mUPos >= mRecycleViews.size() ? mUPos % mRecycleViews.size() : mUPos;
             View view = mRecycleViews.get(p);
-			if (view.getParent() != null) {
-				for (int i = 0; i < mRecycleViews.size(); i++) {
-					View v = mRecycleViews.get(i);
-					if (v.getParent()==null) {
-						view = v;
-						mUsedPos = i;
-						break;
-					}
+		if (view.getParent() != null) {
+			for (int i = 0; i < mRecycleViews.size(); i++) {
+				View v = mRecycleViews.get(i);
+				if (v.getParent()==null) {
+					view = v;
+					mUsedPos = i;
+					break;
 				}
-			} else {
-				++mUsedPos;
 			}
+		} else {
+			++mUsedPos;
+		}
             return new ViewHolder(view) { };
         }
 
