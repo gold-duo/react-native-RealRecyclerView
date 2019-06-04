@@ -1,3 +1,5 @@
+# DEPRECATED
+
 **Real Android recycles RecyclerView/ListView**
 
 *To fix react-native [[ListView] renders all rows#499](https://github.com/facebook/react-native/issues/499)*
